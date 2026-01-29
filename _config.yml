@@ -1,4 +1,4 @@
-title: 2009scape
+title: RuneScape 2009
 encoding: UTF-8
 exclude: [serve.bat, serve.sh, parse.py, README.md]
 include: [".well-known"]
