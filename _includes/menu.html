@@ -1,11 +1,13 @@
 <ul id="menus">
   <li class="top">
     <a href="/index.html" id="home" class="tl">{% include active-menu.html content="home" %}Home</span></a>
-    
     <li class="top">
-      <a id="play" class="tl" href="/services/m=data/drop-table/">
-        <span class="tl">Drops</span>
+      <a id="play" class="tl" href="https://cdn.2009scape.org/wiki/doku.php?id=start">
+        <span class="tl">Wiki</span>
       </a>
+      <ul>
+        <li><a href="/services/m=data/drop-table/" class="fly"><span>Drop Tables & More</span></a></li>
+      </ul>
     </li>
     <!--class ts is active tl is inactive -->
     <li class="top">
@@ -33,16 +35,19 @@
     </ul>
   </li>
 
-  <a href="https://2004.runescape.to" id="help" class="tl">{% include active-menu.html content="help" %}2004</span></a>
+  <li class="top"><a id="help" class="tl" href="/site/help/">{% include active-menu.html content="help" %}Help</span></a>
+    <ul>
+      <li><a href="#" class="fly"><span>Frequently Asked Questions</span></a></li>
+      <li><a href="#" class="fly"><span>Submit a Bug Report</span></a></li>
+    </ul>
+  </li>
 
   <li class="top">
-    <a id="login" class="tl" href="https://gitlab.com/2009scape" rel="noopener noreferrer" target="_blank"><span class="tl">Source</span></a>
+    <a id="login" class="tl" href="https://gitlab.com/2009scape" rel="noopener noreferrer" target="_blank"><span class="tl">Source Code</span></a>
     <ul>
       <li><a href="https://gitlab.com/2009scape/2009scape" rel="noopener noreferrer" target="_blank" class="fly"><span>Game Source Code</span></a></li>
       <li><a href="https://github.com/2009scape/2009Scape.github.io" rel="noopener noreferrer" target="_blank" class="fly"><span>Website Source Code</span></a></li>
     </ul>
   </li>
 </ul>
-
 <br class="clear" />
-
