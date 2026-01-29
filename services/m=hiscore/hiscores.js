@@ -1,7 +1,8 @@
 var hiscores = hiscores || {};
 
 var usersToSquash = [
-    ""
+    "stux",
+    "admin"
 ]
 
 function proxyUnsquashed(proxyData,result){
@@ -338,4 +339,5 @@ hiscores.changePlaqueWorld();
 hiscores.updateLegendText();
 
 hiscores.addSkillsAndActivityFilters();
+
 
