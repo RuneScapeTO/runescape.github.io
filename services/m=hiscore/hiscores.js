@@ -34,7 +34,7 @@ hiscores.loadDefaultHSTable = () => {
     fetch(`${hiscores.apiURL}/hiscores/playersByTotal/${hiscores.world}`)
         .then(response => response.json())
         .then(result => {
-            if (hiscores.world == 2) {
+            if (hiscores.world == 1) {
                 fetch("https://highscores.runescape.to/proxies/totallevel.json")
                     .then(response => response.json()).then(
                         proxyData => {
@@ -338,3 +338,4 @@ hiscores.changePlaqueWorld();
 hiscores.updateLegendText();
 
 hiscores.addSkillsAndActivityFilters();
+
